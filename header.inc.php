@@ -21,7 +21,7 @@
                             <input class="input_right" placeholder="E-mail" type="email" name="user_email">
                         </div>
                         <div class="col-md-12">
-                            <textarea cols="50" rows="4" name="message" placeholder="Message..."></textarea>
+                            <textarea cols="50" rows="10" name="message" placeholder="Message..."></textarea>
                         </div>
                         <div class="col-md-12">
                             <input type="submit" name="envoyer" value="envoyer">
