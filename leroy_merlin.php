@@ -257,11 +257,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="scripts/jquery-3.0.0.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="scripts/navigation.js"></script>
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/main_2.js"></script>
     <script src="scripts/reveal.js"></script>
+    <script src="scripts/navigation.js"></script>
 </body>
 
 </html>

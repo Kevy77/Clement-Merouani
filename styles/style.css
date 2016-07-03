@@ -809,6 +809,9 @@ p.sub_infos_footer::before, p.sub_infos_footer::after {
     .contact input[type="text"], .contact input[type="email"],.contact input[type="submit"],.contact textarea{
         border-radius: 0 !important;
     }
+    .logo_brand{
+      margin-bottom: 20px
+    }
 }
 @media all and (max-width: 1166px) {
     .text_abs_4 {

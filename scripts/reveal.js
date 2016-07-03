@@ -14,16 +14,21 @@ $(document).ready(function() {
   sr.reveal('main.full div.col-md-6', {
       origin: 'right',
       distance: '200px',
-      duration: 600
+      duration: 1000
   });
   sr.reveal('main.full div.col-md-4', {
       origin: 'left',
       distance: '200px',
-      duration: 600
+      duration: 1000
+  });
+  sr.reveal('main.full div.col-md-8', {
+      origin: 'right',
+      distance: '200px',
+      duration: 1000
   });
   sr.reveal('.image_s', {
       origin: 'top',
       distance: '200px',
-      duration: 600
+      duration: 1000
   });
 });
