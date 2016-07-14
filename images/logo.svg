@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="EFFECTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1190.55 2676.001" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="287.5998" y1="1223.7571" x2="495.793" y2="1334.4553">
+	<stop  offset="0.3006" style="stop-color:#004766"/>
+	<stop  offset="0.6196" style="stop-color:#007DB3"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_1_);" points="276.91,1243.861 299.304,1346.187 426.421,1346.187 543.963,1243.861 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="340.1217" y1="1098.7848" x2="465.8337" y2="1165.6271">
+	<stop  offset="0.54" style="stop-color:#004766"/>
+	<stop  offset="0.91" style="stop-color:#007DB3"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_2_);" points="308.057,1186.186 454.902,1186.186 508.494,1083.86 348.057,1083.86 "/>
+<path style="fill:#1A171B;" d="M656.549,1112.385"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="525.5635" y1="1151.4338" x2="764.7548" y2="1278.6141">
+	<stop  offset="0.35" style="stop-color:#004766"/>
+	<stop  offset="0.65" style="stop-color:#007DB3"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_3_);" points="728.826,1346.187 618.899,1346.187 561.493,1083.86 671.417,1083.86 "/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="720.3848" y1="1151.4329" x2="959.5781" y2="1278.6141">
+	<stop  offset="0.35" style="stop-color:#004766"/>
+	<stop  offset="0.65" style="stop-color:#007DB3"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_4_);" points="923.649,1346.187 813.722,1346.187 756.314,1083.86 866.241,1083.86 "/>
+<polygon style="fill:#00C0FF;" points="424.094,1346.187 534.021,1346.187 671.425,1083.86 561.501,1083.86 "/>
+<polygon style="fill:#00C0FF;" points="618.911,1346.187 728.837,1346.187 866.246,1083.86 756.319,1083.86 "/>
+<polygon style="fill:#00C0FF;" points="299.294,1346.142 436.679,1083.86 326.752,1083.86 266.901,1198.122 "/>
+</svg>
