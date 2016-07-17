@@ -538,7 +538,17 @@ section.brand {
     background-size: cover;
     padding: 60px;
 }
-.vimeo__box iframe {
+.vimeo__box__peugeot208 {
+  background: url('../images/peugeot208-blurBg.png') center top;
+  background-size: cover;
+  padding: 60px;
+}
+.vimeo__box__psa {
+  background: url('../images/psa-blurBg.png') center top;
+  background-size: cover;
+  padding: 60px;
+}
+.vimeo__box iframe{
     max-height: 560px;
 }
 .homepage_project {
@@ -592,9 +602,26 @@ section.brand {
     height: 550px;
     position: relative;
 }
+.ipad-peugeot208 {
+    background: url('../images/peugeot208-ipad.png') left no-repeat;
+    height: 550px;
+    position: relative;
+}
 footer.project_footer {
     height: 387px;
     background: url('../images/blur_footer_lm.png') center top no-repeat;
+    background-size: cover;
+    position: relative !important;
+}
+footer.project_footer_peugeot208 {
+    height: 387px;
+    background: url('../images/peugeot208-BlurBgSd.png') center top no-repeat;
+    background-size: cover;
+    position: relative !important;
+}
+footer.project_footer_psa {
+    height: 387px;
+    background: url('../images/psa-bgBlurSd.png') center top no-repeat;
     background-size: cover;
     position: relative !important;
 }

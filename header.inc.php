@@ -164,7 +164,7 @@
                             <div class="infos__">
                                 <p class="title_infos">peugeot</p>
                                 <p class="sub_infos">Digital</p>
-                                <a href="#" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
+                                <a href="peugeot-208.php" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                             <div class="infos__">
                                 <p class="title_infos">psa</p>
                                 <p class="sub_infos">mobile</p>
-                                <a href="#" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
+                                <a href="psa.php" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                             <div class="infos__">
                                 <p class="title_infos">leroy-m</p>
                                 <p class="sub_infos">Digital</p>
-                                <a href="leroy_merlin.php" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
+                                <a href="leroy-merlin.php" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
                             </div>
                         </div>
                     </div>
