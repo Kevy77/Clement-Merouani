@@ -538,6 +538,11 @@ section.brand {
     background-size: cover;
     padding: 60px;
 }
+.vimeo__box__sacem {
+    background: url('../images/vimeo_bg_sacem.png') center top;
+    background-size: cover;
+    padding: 60px;
+}
 .vimeo__box__peugeot208 {
   background: url('../images/peugeot208-blurBg.png') center top;
   background-size: cover;
@@ -556,12 +561,22 @@ section.brand {
     background-size: cover;
     margin:  60px;
 }
+.homepage_project_sacem {
+    background: #e02241;
+    background-size: cover;
+    min-height: 685px;
+    overflow: hidden;
+}
 .img__home {
     width: auto;
     height: 100%;
 }
 .step_page {
     background-color: #e8e8e8;
+    padding: 60px;
+}
+.step_page_w {
+    background-color: #fff;
     padding: 60px;
 }
 .image_s {
@@ -603,6 +618,7 @@ section.brand {
     position: relative;
 }
 .ipad-peugeot208 {
+    margin-top: 200px;
     background: url('../images/peugeot208-ipad.png') left no-repeat;
     height: 550px;
     position: relative;
@@ -649,7 +665,40 @@ p.sub_infos_footer {
 p.sub_infos_footer::before, p.sub_infos_footer::after {
     content: ' - ';
 }
-
+.sacem{
+  background: url('../images/bgc_sacem.png') center top;
+  background-size: cover;
+}
+.logo_sacem_first{
+  margin: 100px 0;
+  width: 221px;
+  margin: 100px auto;
+  display: block;
+}
+p.sacem_first{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+    line-height: 0.5;
+}
+p.brand_sacem {
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+    margin: 40px auto;
+}
+.logo_last_sacem{
+  max-width:100%;
+  margin: -280px auto;
+  display: block;
+}
 /*************************
 ********Responsive********
 *************************/

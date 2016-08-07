@@ -49,7 +49,7 @@
                 <div class="section__projects section__1 section" id="section1">
                     <div class="container">
                         <div class="row">
-                            <img class="logo_home img-responsive" src="images/logo.svg" alt="logo_home">
+                            <img class="logo_home img-responsive" src="images/logo.png" alt="logo_home">
                         </div>
                     </div>
                 </div>

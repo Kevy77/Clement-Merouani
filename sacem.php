@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clément Merouani | PEUGEOT</title>
+    <title>Clément Merouani | SACEM</title>
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -37,16 +37,18 @@
 <body>
 <?php include('header.inc.php'); ?>
     <main class="full">
-        <div class="section__projects section__2 section" id="section2">
+        <div class="section__projects sacem section">
             <div class="infos_project_p">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="infos__full">
-                            <p class="title_infos">peugeot</p>
+                            <p class="title_infos">sacem</p>
                             <p class="sub_infos">Digital</p>
-                            <p class="second_line_p">
-                              Peugeot souhaite refondre graphiquement et ergonomiquement la partie showroom des sites Peugeot pays. Avec 37% des visites, cette fiche produit est l’essence de ces sites et un vrai levier dans le processus d’achat de l’internaute. Il fallait donc créer une découverte produit immersive, servie par un parcours fluide, adapté à l’ère du tout tactile.
-                            </p>
+                            <p class="second_line_p">Le modèle économique de la musique est en pleine mutation face à l’ère
+du digital. C’est pourquoi le Sacem se doit de répondre à ces nouvelles exigences en apportant de la transparence et de la simplicité.
+Il fallait donc transformer l’image de la Sacem et faire comprendre son rôle auprès de ses clients : un véritable prestataire de services, défenseurs des droits de ses artistes et de la musique et non pas un simple «percepteur» de droits.
+Sans oublier de séduire les nouveaux artistes pour les convaincre de la pertinence du modèle de gestion collective des droits des créateurs face
+à la croissance des modes de diffusion</p>
                         </div>
                     </div>
                     <div class="scroll_full">
@@ -66,7 +68,7 @@
                                 Client
                             </p>
                             <p class="credits_second">
-                                Peugeot
+                                Sacem
                             </p>
                         </div>
                         <div class="space"></div>
@@ -75,7 +77,7 @@
                                 Projet
                             </p>
                             <p class="credits_second">
-                                Showroom nouvelle 208 (2013)
+                                Refonte de l’écosystème<br>( 2013 )
                             </p>
                         </div>
                     </div>
@@ -104,9 +106,8 @@
                                 Acolytes
                             </p>
                             <p class="credits_second">
-                                CR : Lucie Sarfati
+                                CR : Cathalyne Faissat
                                 <br> Motion : Xavier Duraffourg
-                                <br> & Benjamin Chazal
                             </p>
                         </div>
                     </div>
@@ -117,114 +118,143 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
-                        <img class="logo_brand" src="images/peugeot208-logo.png" alt="logo_brand">
+                        <img class="logo_brand" src="images/logo_brand_sacem.png" alt="logo_brand">
                     </div>
                     <div class="col-md-8">
                         <p class="brand">
-                            Fleuron de l’industrie française, Peugeot est l’un des principaux pionniers de l’industrie automobile mondiale. En plus de 2 siècles, les activités de la marque se sont développées autour de la passion et du défi technologique.                            Marque aux 60 millions de véhicules vendus dans le monde, Peugeot allie, depuis plus de 200 ans, exigences et émotion
+                            La Sacem (Société des Auteurs, Compositeurs et Editeurs de musique) est une société de services, société civile à but non lucratif, gérée par les créateurs et éditeurs de musique.
+Elle favorise la création musicale en protégeant, représentant et servant les intérêts des auteurs, compositeurs et éditeurs de musique
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="vimeo__box__peugeot208">
+        <section class="vimeo__box__sacem">
             <div class="container">
                 <div class="row">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="//player.vimeo.com/video/101286643"></iframe>
+                        <iframe src="//player.vimeo.com/video/116711136"></iframe>
                     </div>
                 </div>
             </div>
             <div class="clearBoth"></div>
         </section>
-        <section class="step_page_w">
+        <section class="homepage_project_sacem">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <p class="title_1">Sélecteur de couleur</p>
-                        <p class="sub_title_1">
-                          L’outil de personnalisation de couleur de carrosserie nous suit tout au long du parcours
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/peugeot208-selecteurCouleur.png" style="width:100%;height:100%;" alt="" />
-                    </div>
+                    <img  class="logo_sacem_first" src="images/logo_first_sacem.png" alt="logo_sacem" />
+                    <p class="sacem_first">Refonte du logo</p>
+                    <p class="brand_sacem">L’objectif est de faire de la Sacem une marque ombrelle,
+qui se décline sur ses différents espaces via une déclinaison de logos,
+de couleurs, et de baselines associées</p>
+                    <img src="images/logo_last_first_sacem.png" class="logo_last_sacem" alt="" />
                 </div>
             </div>
         </section>
-        <img src="images/peugeot208-techno.png" style="width:100%;height:100%;" alt="" />
-        <section class="step_page-w">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title_1">Caractéristiques du véhicule</p>
-                        <p class="sub_title_1">
-                          Mises en avant des caractéristiques de design de la nouvelle 208
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/peugeot208-caractVehicule.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/peugeot208-connect.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title_1">Connectivité</p>
-                        <p class="sub_title_1">
-                          Mise en scène des avantages technologiques du nouveau tableau de bord
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <img src="images/peugeot208-ambiance.png" style="width: 100%;height: 100%;" alt="" />
         <section class="step_page">
             <div class="container-fluid">
+                <div class="first_home">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="title_1"><span class="capi">étape 4 :</span> Sélection du profile</p>
+                            <img src="images/home_lm.png" style="width: 100%;height: 100%;" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/visu_lm.png" style="width:100%;height:100%;" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="title_1">Informations magasin</p>
+                        <p class="sub_title_1">Layer regroupant les information de son enseigne Leroy Merlin préféré permétant une remontée d’informations profilé</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 center_this_text">
+                        <p class="title_1">Sélection couleur</p>
+                        <p class="sub_title_1">Une fois le type de profilé choisis, une palette de couleur souvre à nous et met ainsi à jour le visuel de prévisualisation</p>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="images/third_lm.png" style="width:100%;height:100%;" alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 first_home">
+                        <p class="title_1"><span class="capi">étape 6 :</span> Visualisation final</p>
+                        <img src="images/step_6.png" style="width: 100%;height: 100%;" alt="" />
+                    </div>
+                </div>
+                <div class="ground">
+                    <div class="row">
+                        <div class="col-md-12 first_home">
+                            <img class="img-responsive img__home"src="images/ground.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="clearBoth"></div>
+                    <div class="row">
+                      <div class="col-md-6 text_abs">
+                          <p class="title_1">Sélection du sol</p>
+                          <p class="sub_title_1">Layer de sélection de type de sol permettant la mise à jour du visuel d’ambiance afin de mieux visualiser les portes de placard dans leurs futur univers</p>
+                      </div>
+                      <div class="clearBoth"></div>
+                    </div>
+                </div>
                 <div class="ground">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="col-md-6">
-                                <p class="title_1">Mobilité</p>
-                                <p class="sub_title_1">
-                                  Le showroom 208 est également disponible sur smartphone avec une navigation verticale
-                                </p>
+                            <div class="col-md-4 text_abs_2">
+                                <p class="title_1">Sélection du sol</p>
+                                <ul class="sub_title_1">
+                                    <li>Parquet</li>
+                                    <li>Carrelage</li>
+                                    <li>Moquette</li>
+                                    <li>Beton</li>
+                                </ul>
                             </div>
                             <div class="clearBoth"></div>
-                            <img src="images/peugeot208-visuel.png" style="width:100%;height: 100%;" alt="" />
+                            <img class="image_s"src="images/bgc_lm_other.png" style="width:100%;height: 100%;" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="ground">
                     <div class="row">
-                      <div class="row">
-                          <div class="col-md-12">
-                              <img src="images/peugeot208-iphone.png" style="width:100%;position:relative;height:100%;bottom:-220px" alt="" />
-                          </div>
-                      </div>
+                        <div class="col-md-12">
+                            <div class="col-md-4 text_abs_3">
+                                <p class="title_1">Téléchargement de photo</p>
+                                <p class="sub_title_1">Possibilité de télécharger directement sa propre photo pour visualiser ses portes de placard directement chez sois</p>
+                                <img src="images/dowload_1.png" style="width:auto;height:auto;" alt="" />
+                                <div class="clearBoth"></div>
+                            </div>
+                            <div class="col-md-8">
+                                <p style="text-align-center">
+                                <img style="display:inline-block;"class="img-responsive" src="images/download_2.png" style="width:auto;height:auto;" alt="" />
+                                </p>
+                            </div>
+                            <div class="clearBoth"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="ipad-peugeot208">
+        <section class="ipad">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 text_abs_4">
-                        <p class="title_1">Expérience utilisateur</p>
-                        <p class="sub_title_1">
-                          Le showroom a également été pensé pour que l’expérience se prolonge sur tablette
-                        </p>
+                        <p class="title_1">Version tablette</p>
+                        <p class="sub_title_1">Le mini site de configuration de porte de placard à également été pensé pour une navigation sur tablettes</p>
                     </div>
                 </div>
             </div>
+            </div>
+            </div>
         </section>
-        <footer class="project_footer_peugeot208">
+        <footer class="project_footer">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12 center_foot">
-                <img src="images/peugeot208-logoSd.png" alt="">
-                <p class="title_infos_footer">showroom 208</p>
+                <img src="images/logo_lm.png" alt="">
+                <p class="title_infos_footer">Configurateur</p>
                 <p class="sub_infos_footer">Digital</p>
               </div>
             </div>
