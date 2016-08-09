@@ -117,7 +117,7 @@ Sans oublier de séduire les nouveaux artistes pour les convaincre de la pertine
         <section class="brand">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-12 col-sm-12">
                         <img class="logo_brand" src="images/logo_brand_sacem.png" alt="logo_brand">
                     </div>
                     <div class="col-md-8">
@@ -151,112 +151,76 @@ de couleurs, et de baselines associées</p>
                 </div>
             </div>
         </section>
-        <section class="step_page">
+        <section class="step_page_w">
             <div class="container-fluid">
                 <div class="first_home">
                     <div class="row">
                         <div class="col-md-12">
-                            <p class="title_1"><span class="capi">étape 4 :</span> Sélection du profile</p>
-                            <img src="images/home_lm.png" style="width: 100%;height: 100%;" alt="" />
+                            <p class="credits_first " style="color:#e02241; text-align:center">Logo sites</p>
+                            <p class="brand_sacem" style="color:#666666;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis sem. Nulla consequat massa quis enim.</p>
+                            <div class="col-md-6"><img class="img-responsive" src="images/sacem_bloc_1.png" style="width:100%; height100%; margin-bottom: 40px;"alt="" /></div>
+                            <div class="col-md-6"><img class="img-responsive" src="images/sacem_bloc_2.png" style="width:100%; height100%; margin-bottom: 40px;"alt="" /></div>
+                            <div class="col-md-6"><img class="img-responsive" src="images/sacem_bloc_3.png" style="width:100%; height100%;margin-bottom: 40px;"alt="" /></div>
+                            <div class="col-md-6"><img class="img-responsive" src="images/sacem_bloc_4.png" style="width:100%; height100%;margin-bottom: 40px;"alt="" /></div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/visu_lm.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title_1">Informations magasin</p>
-                        <p class="sub_title_1">Layer regroupant les information de son enseigne Leroy Merlin préféré permétant une remontée d’informations profilé</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 center_this_text">
-                        <p class="title_1">Sélection couleur</p>
-                        <p class="sub_title_1">Une fois le type de profilé choisis, une palette de couleur souvre à nous et met ainsi à jour le visuel de prévisualisation</p>
-                    </div>
-                    <div class="col-md-8">
-                        <img src="images/third_lm.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 first_home">
-                        <p class="title_1"><span class="capi">étape 6 :</span> Visualisation final</p>
-                        <img src="images/step_6.png" style="width: 100%;height: 100%;" alt="" />
-                    </div>
-                </div>
-                <div class="ground">
-                    <div class="row">
-                        <div class="col-md-12 first_home">
-                            <img class="img-responsive img__home"src="images/ground.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="clearBoth"></div>
-                    <div class="row">
-                      <div class="col-md-6 text_abs">
-                          <p class="title_1">Sélection du sol</p>
-                          <p class="sub_title_1">Layer de sélection de type de sol permettant la mise à jour du visuel d’ambiance afin de mieux visualiser les portes de placard dans leurs futur univers</p>
-                      </div>
-                      <div class="clearBoth"></div>
-                    </div>
-                </div>
-                <div class="ground">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="col-md-4 text_abs_2">
-                                <p class="title_1">Sélection du sol</p>
-                                <ul class="sub_title_1">
-                                    <li>Parquet</li>
-                                    <li>Carrelage</li>
-                                    <li>Moquette</li>
-                                    <li>Beton</li>
-                                </ul>
-                            </div>
-                            <div class="clearBoth"></div>
-                            <img class="image_s"src="images/bgc_lm_other.png" style="width:100%;height: 100%;" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="ground">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="col-md-4 text_abs_3">
-                                <p class="title_1">Téléchargement de photo</p>
-                                <p class="sub_title_1">Possibilité de télécharger directement sa propre photo pour visualiser ses portes de placard directement chez sois</p>
-                                <img src="images/dowload_1.png" style="width:auto;height:auto;" alt="" />
-                                <div class="clearBoth"></div>
-                            </div>
-                            <div class="col-md-8">
-                                <p style="text-align-center">
-                                <img style="display:inline-block;"class="img-responsive" src="images/download_2.png" style="width:auto;height:auto;" alt="" />
-                                </p>
-                            </div>
-                            <div class="clearBoth"></div>
+                          <p class="credits_first " style="color:#e02241; text-align:center">Sacem.fr</p>
+                          <p class="brand_sacem" style="color:#666666;">Le portail sacem.fr donne accès aux différents sites de l’écosystème</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="ipad">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 text_abs_4">
-                        <p class="title_1">Version tablette</p>
-                        <p class="sub_title_1">Le mini site de configuration de porte de placard à également été pensé pour une navigation sur tablettes</p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
+        <section class="step_page">
+          <div class="container-fluid">
+              <img class="img-responsive screen_top " src="images/Home_sacem.png" style=" width:100%; margin:0 auto; height:100%;" alt="" />
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                <p class="credits_first " style="color:#e02241; text-align:center">Interaction</p>
+                <p class="brand_sacem" style="color:#666666;">Chaque visuel des 3 principaux sites s’étand pour y donner accès
+ainsi qu’à ses quick links </p>
+                <img class="img-responsive" src="images/Utilisateurs_sacem.png" style=" width:100%; margin:0 auto; height:100%;" alt="" />
+                <img class="img-responsive" src="images/roll_user_sacem.png" style=" width:100%; margin:0 auto; height:100%;" alt="" />
+              </div>
+          </div>
         </section>
-        <footer class="project_footer">
+        <section class="step_page no-padding">
+          <div class="row no-padding">
+              <div class="col-md-12 no-padding">
+                <p class="credits_first pd_rep" style="color:#e02241; text-align:center">Social wall</p>
+                <p class="brand_sacem pd_rep" style="color:#666666;">CLe fil d’actualité se déploie pour afficher les dernières remontés
+Facebook, Instagram & Twitter</p>
+                <img class="img-responsive" src="images/roll_social_sacem.png" style=" width:100%; margin:40px auto; height:100%;" alt="" />
+              </div>
+          </div>
+          <div class="row no-padding">
+              <div class="col-md-12 no-padding">
+                <p class="credits_first pd_rep " style="color:#32c7c7; text-align:center">Répertoire des œuvres</p>
+                <p class="brand_sacem pd_rep " style="color:#666666;">Faites votre choix parmis 70 millions d’oeuvres</p>
+                <img class="img-responsive" src="images/player_sacem.png" style=" width:100%; margin:0 auto -60px auto; height:100%;" alt="" />
+              </div>
+          </div>
+        </section>
+        <section class="step_page_b">
+          <p class="credits_first " style="text-align:center">Home page</p>
+          <p class="brand_sacem" style="color:#666666;">Le répertoire des oeuvres est également disponible sur l’application mobile</p>
+          <img class="img-responsive" src="images/home_page_sacem.png" style=" width:100%; margin:0 auto -60px auto; height:100%;" alt="" />
+        </section>
+        <section class="step_page_w_ombre">
+          <p class="credits_first " style="text-align:center; color:#711f40;">Application Utilisateurs</p>
+          <p class="brand_sacem" style="color:#666666;">Gérez vos comptes Sacem du bout des doigts, disponible sur mobile et tablette</p>
+          <img class="img-responsive" src="images/app_sacem.png" style=" width:80%; margin:0 auto; height:100%;" alt="" />
+        </section>
+        <footer class="project_footer_sm">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12 center_foot">
-                <img src="images/logo_lm.png" alt="">
-                <p class="title_infos_footer">Configurateur</p>
+                <img src="images/logo_sacem.png" alt="">
+                <p class="title_infos_footer">refonte écosystème</p>
                 <p class="sub_infos_footer">Digital</p>
-              </div>
             </div>
           </div>
         </footer>

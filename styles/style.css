@@ -12,12 +12,12 @@ body{
 
 }
 .no-padding> [class*='col-'] {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 .no-padding {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 /*************************
 ********SECTION***********
@@ -543,6 +543,18 @@ section.brand {
     background-size: cover;
     padding: 60px;
 }
+.vimeo__box__peugeot_scooter {
+    background: url('../images/blur_peugeot_scoot.png') center top;
+    background-size: cover;
+    padding: 60px;
+}
+.vimeo__box__peugeot_pro{
+    background: url('../images/blur_vimeo_pg_pro.png') center top;
+    background-size: cover;
+    padding: 60px;
+    position: relative;
+    z-index: 10;
+}
 .vimeo__box__peugeot208 {
   background: url('../images/peugeot208-blurBg.png') center top;
   background-size: cover;
@@ -575,8 +587,31 @@ section.brand {
     background-color: #e8e8e8;
     padding: 60px;
 }
+.step_page_wb{
+  background-color: #fff;
+  width: 60%;
+  padding: 60px 0;
+  margin: 0 auto;
+}
 .step_page_w {
     background-color: #fff;
+    padding:  60px;
+}
+.no-padding_top{
+  padding:0 60px !important;
+}
+.no-padding_top_all{
+  padding:0  !important;
+}
+.step_page_w_ombre {
+    background-color: #fff;
+    padding: 60px;
+}
+.step_page_w_ombre::before {
+
+}
+.step_page_b{
+    background-color: #32c7c7;
     padding: 60px;
 }
 .image_s {
@@ -629,6 +664,18 @@ footer.project_footer {
     background-size: cover;
     position: relative !important;
 }
+footer.project_footer_sm {
+    height: 387px;
+    background: url('../images/footer_sacem.png') center top no-repeat;
+    background-size: cover;
+    position: relative !important;
+}
+footer.project_footer_pgs {
+    height: 387px;
+    background: url('../images/blur_footer_peugeot_scoot.png') center top no-repeat;
+    background-size: cover;
+    position: relative !important;
+}
 footer.project_footer_peugeot208 {
     height: 387px;
     background: url('../images/peugeot208-BlurBgSd.png') center top no-repeat;
@@ -669,6 +716,14 @@ p.sub_infos_footer::before, p.sub_infos_footer::after {
   background: url('../images/bgc_sacem.png') center top;
   background-size: cover;
 }
+.peugeot_scooter{
+  background: url('../images/bgc_6_.png') center top;
+  background-size: cover;
+}
+.peugeot_pro{
+  background: url('../images/bg_peugeot_pro.png') center top;
+  background-size: cover;
+}
 .logo_sacem_first{
   margin: 100px 0;
   width: 221px;
@@ -699,6 +754,14 @@ p.brand_sacem {
   margin: -280px auto;
   display: block;
 }
+.screen_top{
+  position:relative;
+  top: -177px;
+}
+.config_libre{
+  background: url('../images/scoot_1.png') no-repeat center right;
+  background-size: cover;
+}
 /*************************
 ********Responsive********
 *************************/
@@ -727,6 +790,11 @@ p.brand_sacem {
     }
     .center_this_text {
         padding: 15px;
+    }
+    .screen_top{
+      padding-bottom: 60px;
+      position: relative;
+      top:0px;
     }
     .img__home {
         height: auto;
@@ -896,6 +964,12 @@ p.brand_sacem {
         left: 0px;
         width: 200px;
     }
+    p.brand_sacem{
+      width: 100%;
+    }
+    .pd_rep{
+      padding: 0 60px;
+    }
     .up_down_css {
         -webkit-transform: transform: translateY(0) !important;
         -moz-transform: transform: translateY(0) !important;
@@ -908,6 +982,12 @@ p.brand_sacem {
         -ms-transition: transform 0.6s !important;
         transition: transform 0.6s !important;
         animation: all 2s ease;
+    }
+    p.credits_first{
+      line-height: 1.5;
+    }
+    .logo_last_sacem{
+      margin: 0 auto;
     }
 }
 

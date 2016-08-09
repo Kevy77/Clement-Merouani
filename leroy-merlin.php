@@ -115,7 +115,7 @@
         <section class="brand">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-xs-12 col-sm-12">
                         <img class="logo_brand" src="images/logo_brand_lm.png" alt="logo_brand">
                     </div>
                     <div class="col-md-8">

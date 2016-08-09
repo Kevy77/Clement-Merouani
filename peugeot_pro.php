@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clément Merouani | PSA</title>
+    <title>Clément Merouani | PEUGEOT PRO</title>
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -37,14 +37,14 @@
 <body>
 <?php include('header.inc.php'); ?>
     <main class="full">
-        <div class="section__projects section__3 section" id="section4">
+        <div class="section__projects peugeot_pro section">
             <div class="infos_project_p">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="infos__full">
-                            <p class="title_infos">psa peugeot citroën</p>
-                            <p class="sub_infos">Application</p>
-                            <p class="second_line_p">Avec pour objectif le salon de Francfort de septembre 2013, le groupe PSA souhaite lancer une application mobile pour faciliter l’accès aux guides d’utilisation de ses véhicules. Pour cela, l’application s’appuie sur une solution de photo reconnaissance exclusive et extrêmement performante en termes de temps de réponse et de prise en compte des contextes d’utilisation… le tout hors connexion !</p>
+                            <p class="title_infos">peugeot pro</p>
+                            <p class="sub_infos">Digital</p>
+                            <p class="second_line_p">Aujourd’hui il est difficile de trouver le modèle idéale, alors comment s’y retrouver parmi 250 modèles et versions possibles ? Tout simplement grâce à un service d’aide au choix et à la configuration aussi efficace et rapide qu’en concession Peugeot, avec une interface pédagogique et intuitive qui simplifie le parcours utilisateur.</p>
                         </div>
                     </div>
                     <div class="scroll_full">
@@ -64,7 +64,7 @@
                                 Client
                             </p>
                             <p class="credits_second">
-                                PSA Peugeot Citroën
+                                Peugeot
                             </p>
                         </div>
                         <div class="space"></div>
@@ -73,7 +73,7 @@
                                 Projet
                             </p>
                             <p class="credits_second">
-                                Application Smart Cam (2013)
+                                Configurateur véhicules Pro(2013)
                             </p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <p class="credits_second">
                                 CR : Cathalyne Faissat
                                 <br> Motion : Xavier Duraffourg
-                                <br> & Benjamin Chazal
+                                <br>& Benjamin Chazal
                             </p>
                         </div>
                     </div>
@@ -115,104 +115,68 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-xs-12 col-sm-12">
-                        <img class="logo_brand" src="images/psa-logo.png" alt="logo_brand">
+                        <img class="logo_brand" src="images/logo_scooter.png" alt="logo_brand">
                     </div>
                     <div class="col-md-8">
                         <p class="brand">
-                            PSA Peugeot Citroën consacre chaque année plus de 5 % du chiffre d’affaires de sa branche automobile à la recherche & développement et a déposé 1 237 brevets en 2013, ce qui en fait le premier déposant de brevets en France. La R&D permet au Groupe de construire son avance technologique.
+                          Fleuron de l’industrie française, Peugeot est l’un des principaux pionniers de l’industrie automobile mondiale. En plus de 2 siècles, les activités de la marque se sont développées autour de la passion et du défi technologique.
+Marque aux 60 millions de véhicules vendus dans le monde, Peugeot allie, depuis plus de 200 ans, exigences et émotion.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="vimeo__box__psa">
+        <section class="vimeo__box__peugeot_pro">
             <div class="container">
                 <div class="row">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="//player.vimeo.com/video/101286642"></iframe>
+                        <iframe src="//player.vimeo.com/video/116711136"></iframe>
                     </div>
                 </div>
             </div>
             <div class="clearBoth"></div>
         </section>
-        <img src="images/psa-scan.png" alt="" style="width:100%; height:100%;">
-        <section class="step_page">
+        <section class="step_page_w no-padding_top">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/psa-icons.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/psa-smartLogo.png" style="width:100%;height:100%;" alt="" />
-                        <p class="title_1">Icône et Logo de l’application</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title_1">Splash screen</p>
-                        <p class="sub_title_1">
-                          Ecrans de loading à l’ouverture de l’application
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/psa-splash.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/psa-home.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title_1">écran d’accueil</p>
-                        <p class="sub_title_1">
-                          Les applications Peugeot et Citroën sont déclinées suivant leur charte respective
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="images/psa-viseur.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="col-md-6">
-                        <p class="title_1">Viseur du scan</p>
-                    </div>
-                </div>
-                <div class="ground">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="col-md-4 text_abs_2">
-                                <ul class="sub_title_1">
-                                    <li>Splash screen</li>
-                                    <li>Reconnaissance à choix multiples</li>
-                                    <li>Guide d’utilisation</li>
-                                </ul>
-                            </div>
-                            <div class="clearBoth"></div>
-                            <img class="image_s"src="images/psa-multiPage.png" style="width:100%;height: 100%;" alt="" />
+                            <img class="img-responsive" src="images/baseline_pro.png" style="width:100%; margin-top:-30vw; height100%; position:relative; bottom:-21vw; z-index:4;"alt="" />
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title_1">Landing page de l’app</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/psa-landingPage.png" style="width:100%;height:100%;" alt="" />
-                    </div>
-                </div>
             </div>
         </section>
-        <footer class="project_footer_psa">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12 center_foot">
-                <img src="images/psa-logoSd.png" alt="">
-                <p class="title_infos_footer">smart cam</p>
-                <p class="sub_infos_footer">Application</p>
+        <section class="step_page_w no-padding no-padding_top_all">
+          <div class="row no-padding">
+              <div class="col-md-12 no-padding">
+                <img class="img-responsive" src="images/baseline_2_pro.png" style=" width:100%; height:100%;" alt="" />
+              </div>
+          </div>
+        </section>
+          <section class="step_page_wb">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="title_1">Sélecteur de gamme</p>
+                    <p class="sub_title_1">Slider permettant de définir une gamme
+de véhicules pro suivant son usage</p>
+                  </div>
+                  <div class="col-md-12">
+                    <img class="img-responsive" src="images/peugeot_pro_1.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                </div>
+            </div>
+
+          </section>
+          <footer class="project_footer_pgs">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 center_foot">
+                  <img src="images/scooter_logo_footer.png" alt="">
+                  <p class="title_infos_footer">scooter 251</p>
+                  <p class="sub_infos_footer">Digital</p>
               </div>
             </div>
-          </div>
-        </footer>
+          </footer>
     </main>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="scripts/jquery-3.0.0.min.js"></script>
