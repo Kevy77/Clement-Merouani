@@ -6,7 +6,7 @@ $(document).ready(function() {
 				navigation: true,
 				navigationPosition: 'right',
         autoplay:true,
-        navigationTooltips: ['ACCUEUIL', 'PEUGEOT', 'PSA PEUGEOT CITROËN', 'LEROY MERLIN', 'SACEM', 'PEUGEOT'],
+        navigationTooltips: ['ACCUEUIL', 'PEUGEOT', 'PSA PEUGEOT CITROËN', 'LEROY MERLIN', 'SACEM', 'PEUGEOT','PEUGEOT PRO'],
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
@@ -33,6 +33,11 @@ $(document).ready(function() {
             }
 						if(index == 6){
 	              $('#infos_6').fadeIn(600);
+								$(this).find('.infos__ p').addClass('up_down_css');
+								$(this).find('.btn_project').addClass('up_down_css');
+            }
+						if(index == 7){
+	              $('#infos_7').fadeIn(600);
 								$(this).find('.infos__ p').addClass('up_down_css');
 								$(this).find('.btn_project').addClass('up_down_css');
             }

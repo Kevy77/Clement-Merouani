@@ -164,15 +164,60 @@ de véhicules pro suivant son usage</p>
                     <img class="img-responsive" src="images/peugeot_pro_1.png" style=" width:100%; height:100%;" alt="" />
                   </div>
                 </div>
+                <div class="row space_top_bottom">
+                  <div class="col-md-6">
+                    <img class="img-responsive" src="images/box_selcet.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                  <div class="col-md-6">
+                    <p class="title_1">Choix du volume</p>
+                    <p class="sub_title_1">Sélection de la volumétrie du véhicule utilitaire</p>
+                  </div>
+                </div>
+                <div class="row space_top_bottom">
+                  <div class="col-md-12">
+                    <p class="title_1">Choix de la motorisation</p>
+                    <img class="img-responsive" src="images/moteur.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                </div>
+                <div class="row space_top_bottom">
+                  <div class="col-md-12">
+                    <p class="title_1">Critères de recherche</p>
+                    <p class="sub_title_1">Panneau permettant d’affiner sa recherche</p>
+                    <img class="img-responsive" src="images/last_pict.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                </div>
             </div>
-
           </section>
-          <footer class="project_footer_pgs">
+          <section class="step_page">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="title_1">Mobilité</p>
+                    <p class="sub_title_1">Le configurateur Peugeot Pro est également disponible sur smartphone</p>
+                    <img class="img-responsive" src="images/screen_apps_pro.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                </div>
+              </div>
+          </section>
+          <section class="step_page_w no-padding_top_all">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-responsive" src="images/ipad_pro.png" style=" width:100%; height:100%;" alt="" />
+                  </div>
+                  <div class="col-md-6" style="padding:60px;">
+                    <p class="title_1">Expérience utilisateur</p>
+                    <p class="sub_title_1">Le configurateur a également été pensépour que l’expérience se prolonge sur tablette</p>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <footer class="project_footer_pgp">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-12 center_foot">
-                  <img src="images/scooter_logo_footer.png" alt="">
-                  <p class="title_infos_footer">scooter 251</p>
+                  <img src="images/logo_peugeot_pro_footer.png" alt="">
+                  <p class="title_infos_footer">configurateur pro</p>
                   <p class="sub_infos_footer">Digital</p>
               </div>
             </div>
