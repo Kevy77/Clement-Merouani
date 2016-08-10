@@ -3,13 +3,12 @@ body, html {
     font-family: 'Josefin Slab', 'Raleway', sans-serif;
     color: white;
     overflow-x: hidden;
-     text-rendering : optimizeLegibility;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-body{
-      display: none;
-
+body {
+    display: none;
 }
 .no-padding> [class*='col-'] {
     padding-right: 0 !important;
@@ -19,6 +18,10 @@ body{
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+.except-padding{
+  padding:60px 75px !important
+}
+
 /*************************
 ********SECTION***********
 *************************/
@@ -53,7 +56,6 @@ body{
     background-size: cover;
 }
 
-
 /*************************
 ****HEADER ET FOOTER******
 *************************/
@@ -82,7 +84,8 @@ header, footer {
     font-size: 18px;
     color: white;
     position: relative;
-    top: 85vh;
+    top: 100vh;
+    margin-top: -100px;
     z-index: 4;
     animation: bounce 2s infinite;
 }
@@ -353,7 +356,6 @@ a:visited, a:hover, a:focus, a {
     min-height: 60px;
     outline: none;
 }
-
 .input_right {
     border-right: 3px solid rgba(255, 255, 255, 0.5) !important;
     border-left: 1.5px solid rgba(255, 255, 255, 0.5)!important;
@@ -386,6 +388,17 @@ p.first_line, p.title_1 {
     color: rgb(2, 191, 255);
     font-weight: 300;
     font-style: normal;
+}
+.title_1_bluelink{
+  font-size: 30px;
+font-family: "Raleway";
+color: #07476b;
+z-index: 20;
+font-weight: 300;
+font-style: normal;
+position: relative;
+top: -39vh;
+left: -40px
 }
 .capi {
     text-transform: capitalize;
@@ -527,8 +540,8 @@ p.brand {
 .space {
     margin: 60px 0;
 }
-.space_top_bottom{
-  margin: 60px 0;
+.space_top_bottom {
+    margin: 60px 0;
 }
 section.brand {
     background-color: #FFF;
@@ -552,7 +565,7 @@ section.brand {
     background-size: cover;
     padding: 60px;
 }
-.vimeo__box__peugeot_pro{
+.vimeo__box__peugeot_pro {
     background: url('../images/blur_vimeo_pg_pro.png') center top;
     background-size: cover;
     padding: 60px;
@@ -560,22 +573,27 @@ section.brand {
     z-index: 10;
 }
 .vimeo__box__peugeot208 {
-  background: url('../images/peugeot208-blurBg.png') center top;
-  background-size: cover;
-  padding: 60px;
+    background: url('../images/peugeot208-blurBg.png') center top;
+    background-size: cover;
+    padding: 60px;
+}
+.vimeo__box__bluelink {
+    background: url('../images/bgc_vimeo_bluelink.png') center top;
+    background-size: cover;
+    padding: 60px;
 }
 .vimeo__box__psa {
-  background: url('../images/psa-blurBg.png') center top;
-  background-size: cover;
-  padding: 60px;
+    background: url('../images/psa-blurBg.png') center top;
+    background-size: cover;
+    padding: 60px;
 }
-.vimeo__box iframe{
+.vimeo__box iframe {
     max-height: 560px;
 }
 .homepage_project {
     background: url('../images/bgc_homepage_lm.png') center top;
     background-size: cover;
-    margin:  60px;
+    margin: 60px;
 }
 .homepage_project_sacem {
     background: #e02241;
@@ -591,39 +609,130 @@ section.brand {
     background-color: #e8e8e8;
     padding: 60px;
 }
-.step_page_wb{
-  background-color: #fff;
-  padding: 60px;
+.step_page_wb {
+    background-color: #fff;
+    padding: 60px;
 }
 .step_page_w {
     background-color: #fff;
-    padding:  60px;
+    padding: 60px;
 }
-.no-padding_top{
-  padding:0 60px !important;
+.step_page_wbluelink_obli{
+  position: relative;
 }
-.no-padding_top_all{
-  padding:0  !important;
+.step_page_wbluelink_obli_2{
+  position: relative;
+  padding: 60px;
+}
+.step_page_wbluelink_obli::after{
+  content: '';
+display: block;
+background:url('../images/bg_travel_1_bluelink.png') no-repeat top center;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 4;
+-moz-transform-origin: 100% 0;
+-ms-transform-origin: 100% 0;
+-webkit-transform-origin: 100% 0;
+transform-origin: 100% 0;
+-moz-transform: skewY(-10deg);
+-ms-transform: skewY(-10deg);
+-webkit-transform: skewY(-10deg);
+transform: skewY(-10deg);
+-moz-box-shadow: 0px -5px 5px 0px #656565;
+-webkit-box-shadow: 0px -5px 5px 0px #656565;
+-o-box-shadow: 0px -5px 5px 0px #656565;
+box-shadow: 0px -5px 5px 0px #656565;
+filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=90, Strength=5);
+}
+.step_page_wbluelink_obli_2::after{
+  content: '';
+display: block;
+background:url('../images/bg_travel_2_bluelink.png') no-repeat top center;
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 4;
+-moz-transform-origin: 100% 0;
+-ms-transform-origin: 100% 0;
+-webkit-transform-origin: 100% 0;
+transform-origin: 100% 0;
+-moz-transform: skewY(-10deg);
+-ms-transform: skewY(-10deg);
+-webkit-transform: skewY(-10deg);
+transform: skewY(-10deg);
+-moz-box-shadow: 0px -5px 5px 0px #656565;
+-webkit-box-shadow: 0px -5px 5px 0px #656565;
+-o-box-shadow: 0px -5px 5px 0px #656565;
+box-shadow: 0px -5px 5px 0px #656565;
+filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=90, Strength=5);
+}
+.step_page_wbluelink_obli .container-fluid{
+  z-index: 9;
+position: relative;
+}
+
+.no-padding_top {
+    padding: 0 60px !important;
+}
+.no-padding_top_all {
+    padding: 0 !important;
 }
 .step_page_w_ombre {
     background-color: #fff;
     padding: 60px;
 }
-section.step_page_w_ombre::before {
-  content: "";
-  position:  relative;
-  top:-60px;
-  left: -60px;
-  display: block;
-  height: 5px;
-  width: 150%;
-  -moz-box-shadow: 0px -5px 5px 0px #656565;
-  -webkit-box-shadow: 0px -5px 5px 0px #656565;
-  -o-box-shadow: 0px -5px 5px 0px #656565;
-  box-shadow: 0px -5px 5px 0px #656565;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=90, Strength=5);
+.step_page_ye {
+    padding: 60px;
+    position: relative;
+    z-index: 30;
+    margin-top: 400px;
+    background-color: rgb(253, 194, 0);
+     box-shadow:  0px 0px 150px 100px rgba(236, 118, 90, 0.2) inset;
 }
-.step_page_b{
+.step_page_ye::before{
+    content: '';
+  display: block;
+  background-color: rgb(253, 194, 0);
+   box-shadow:  0px 0px 150px 100px rgba(236, 118, 90, 0.2) inset;
+  position: absolute;
+  top: -220px;
+  left: 0;
+  right: 0;
+  bottom: -182px;
+  z-index: 4;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -moz-transform: skewY(7deg);
+  -ms-transform: skewY(7deg);
+  -webkit-transform: skewY(7deg);
+  transform: skewY(7deg);
+}
+
+section.step_page_w_ombre::before {
+    content: "";
+    position: relative;
+    top: -60px;
+    left: -60px;
+    display: block;
+    height: 5px;
+    width: 150%;
+    -moz-box-shadow: 0px -5px 5px 0px #656565;
+    -webkit-box-shadow: 0px -5px 5px 0px #656565;
+    -o-box-shadow: 0px -5px 5px 0px #656565;
+    box-shadow: 0px -5px 5px 0px #656565;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=90, Strength=5);
+}
+.step_page_b {
     background-color: #32c7c7;
     padding: 60px;
 }
@@ -695,6 +804,15 @@ footer.project_footer_pgp {
     background-size: cover;
     position: relative !important;
 }
+footer.project_footer_bluelink {
+    height: 387px;
+    background: url('../images/blur_footer_bluelink.png') center top no-repeat;
+    background-size: cover;
+    position: relative !important;
+    z-index: 100000;
+}
+
+
 footer.project_footer_peugeot208 {
     height: 387px;
     background: url('../images/peugeot208-BlurBgSd.png') center top no-repeat;
@@ -731,25 +849,35 @@ p.sub_infos_footer {
 p.sub_infos_footer::before, p.sub_infos_footer::after {
     content: ' - ';
 }
-.sacem{
-  background: url('../images/bgc_sacem.png') center top;
-  background-size: cover;
+.sacem {
+    background: url('../images/bgc_sacem.png') center top;
+    background-size: cover;
 }
-.peugeot_scooter{
-  background: url('../images/bgc_6_.png') center top;
-  background-size: cover;
+.peugeot_scooter {
+    background: url('../images/bgc_6_.png') center top;
+    background-size: cover;
 }
-.peugeot_pro{
-  background: url('../images/bg_peugeot_pro.png') center top;
-  background-size: cover;
+.peugeot_pro {
+    background: url('../images/bg_peugeot_pro.png') center top;
+    background-size: cover;
 }
-.logo_sacem_first{
-  margin: 100px 0;
-  width: 221px;
-  margin: 100px auto;
-  display: block;
+.bluelink {
+    background: url('../images/bgc_bluelink.png') center top;
+    background-size: cover;
 }
-p.sacem_first{
+.img_bluelink_last{
+  position: relative;
+      top: -69vh;
+      margin-bottom: -79vh;
+      z-index: 9;
+}
+.logo_sacem_first {
+    margin: 100px 0;
+    width: 221px;
+    margin: 100px auto;
+    display: block;
+}
+p.sacem_first {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -768,23 +896,64 @@ p.brand_sacem {
     width: 40%;
     margin: 40px auto;
 }
-.logo_last_sacem{
-  max-width:100%;
-  margin: -280px auto;
-  display: block;
+.logo_last_sacem {
+    max-width: 100%;
+    margin: -280px auto;
+    display: block;
 }
-.screen_top{
-  position:relative;
-  top: -177px;
+.screen_top {
+    position: relative;
+    top: -177px;
 }
-.config_libre{
-  background: url('../images/scoot_1.png') no-repeat center right;
-  background-size: cover;
+.config_libre {
+    background: url('../images/scoot_1.png') no-repeat center right;
+    background-size: cover;
 }
+
 /*************************
 ********Responsive********
 *************************/
+@media (max-width: 400px) and (min-width: 0px) {
+  .step_page_wbluelink_obli .title_1{
+    position: relative ;
+    top:-20vh !important;
+  }
+}
+@media (max-width: 660px) and (min-width: 500px) {
+  .img_bluelink_last{
+    position:relative;
+    top: -61vh;
+     z-index:9;
+  }
+  .step_page_ye{
+    margin-bottom: -5vh;
+  }
+  .title_1_bluelink{
+      top:-48vh;
+  }
+}
+@media (max-width: 660px) and (min-width: 0px) {
+  .title_1_bluelink{
+      top:-46vh;
+  }
+}
+@media (max-width: 500px) and (min-width: 0px) {
+  .img_bluelink_last{
+    position:relative;
+    top: -58vh;
+     z-index:9;
+  }
+  .step_page_ye{
+    margin-bottom: -27vh;
+  }
+}
+@media all and (min-width: 660px){
+  .step_page_wbluelink_obli .title_1{
+    position: relative;
+    top: -5vh;
+  }
 
+}
 @media (max-width:960px) {
     .up_down_css {
         -webkit-transform: transform: translateY(0) !important;
@@ -810,10 +979,10 @@ p.brand_sacem {
     .center_this_text {
         padding: 15px;
     }
-    .screen_top{
-      padding-bottom: 60px;
-      position: relative;
-      top:0px;
+    .screen_top {
+        padding-bottom: 60px;
+        position: relative;
+        top: 0px;
     }
     .img__home {
         height: auto;
@@ -853,6 +1022,13 @@ p.brand_sacem {
     .image_s {
         margin-top: -180px;
     }
+}
+@media (min-width: 390px) and (max-width: 668px) {
+  .step_page_wbluelink_obli .title_1{
+    position: relative ;
+    top:-15vh;
+  }
+
 }
 @media (min-width: 0px) and (max-width: 668px) {
     .up_down_css {
@@ -968,11 +1144,11 @@ p.brand_sacem {
         margin: 0 !important;
         padding: 0 !important;
     }
-    .contact input[type="text"], .contact input[type="email"],.contact input[type="submit"],.contact textarea{
+    .contact input[type="text"], .contact input[type="email"], .contact input[type="submit"], .contact textarea {
         border-radius: 0 !important;
     }
-    .logo_brand{
-      margin-bottom: 20px
+    .logo_brand {
+        margin-bottom: 20px
     }
 }
 @media all and (max-width: 1166px) {
@@ -983,11 +1159,11 @@ p.brand_sacem {
         left: 0px;
         width: 200px;
     }
-    p.brand_sacem{
-      width: 100%;
+    p.brand_sacem {
+        width: 100%;
     }
-    .pd_rep{
-      padding: 0 60px;
+    .pd_rep {
+        padding: 0 60px;
     }
     .up_down_css {
         -webkit-transform: transform: translateY(0) !important;
@@ -1002,11 +1178,11 @@ p.brand_sacem {
         transition: transform 0.6s !important;
         animation: all 2s ease;
     }
-    p.credits_first{
-      line-height: 1.5;
+    p.credits_first {
+        line-height: 1.5;
     }
-    .logo_last_sacem{
-      margin: 0 auto;
+    .logo_last_sacem {
+        margin: 0 auto;
     }
 }
 

@@ -2,17 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
-	"\/deployment-config.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/deployment-config.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/deployment-config-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/favicon\/android-icon-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -297,6 +286,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/app_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 862454,
+		"inputAbbreviatedPath": "\/images\/app_sacem.png",
+		"outputAbbreviatedPath": "\/images\/app_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/arrow_btn.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -315,6 +315,61 @@
 		"initialSize": 1025,
 		"inputAbbreviatedPath": "\/images\/arrow_btn_blue.png",
 		"outputAbbreviatedPath": "\/images\/arrow_btn_blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/baseline_2_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 916108,
+		"inputAbbreviatedPath": "\/images\/baseline_2_pro.png",
+		"outputAbbreviatedPath": "\/images\/baseline_2_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/baseline_3_peugeot_scoot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 905902,
+		"inputAbbreviatedPath": "\/images\/baseline_3_peugeot_scoot.png",
+		"outputAbbreviatedPath": "\/images\/baseline_3_peugeot_scoot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/baseline_peugeot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09638e+06,
+		"inputAbbreviatedPath": "\/images\/baseline_peugeot.png",
+		"outputAbbreviatedPath": "\/images\/baseline_peugeot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/baseline_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605564,
+		"inputAbbreviatedPath": "\/images\/baseline_pro.png",
+		"outputAbbreviatedPath": "\/images\/baseline_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg_peugeot_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.14859e+06,
+		"inputAbbreviatedPath": "\/images\/bg_peugeot_pro.png",
+		"outputAbbreviatedPath": "\/images\/bg_peugeot_pro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -440,6 +495,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blur_footer_peugeot_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186010,
+		"inputAbbreviatedPath": "\/images\/blur_footer_peugeot_pro.png",
+		"outputAbbreviatedPath": "\/images\/blur_footer_peugeot_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blur_footer_peugeot_scoot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236945,
+		"inputAbbreviatedPath": "\/images\/blur_footer_peugeot_scoot.png",
+		"outputAbbreviatedPath": "\/images\/blur_footer_peugeot_scoot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blur_peugeot_scoot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 881742,
+		"inputAbbreviatedPath": "\/images\/blur_peugeot_scoot.png",
+		"outputAbbreviatedPath": "\/images\/blur_peugeot_scoot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blur_vimeo_pg_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 507727,
+		"inputAbbreviatedPath": "\/images\/blur_vimeo_pg_pro.png",
+		"outputAbbreviatedPath": "\/images\/blur_vimeo_pg_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/box_selcet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123149,
+		"inputAbbreviatedPath": "\/images\/box_selcet.png",
+		"outputAbbreviatedPath": "\/images\/box_selcet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/close.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -469,6 +579,17 @@
 		"initialSize": 402912,
 		"inputAbbreviatedPath": "\/images\/download_2.png",
 		"outputAbbreviatedPath": "\/images\/download_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/footer_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.23642e+06,
+		"inputAbbreviatedPath": "\/images\/footer_sacem.png",
+		"outputAbbreviatedPath": "\/images\/footer_sacem.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -561,6 +682,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/home_page_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.24956e+06,
+		"inputAbbreviatedPath": "\/images\/home_page_sacem.png",
+		"outputAbbreviatedPath": "\/images\/home_page_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Home_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.61359e+06,
+		"inputAbbreviatedPath": "\/images\/Home_sacem.png",
+		"outputAbbreviatedPath": "\/images\/Home_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ipad_lm.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -568,6 +711,28 @@
 		"initialSize": 482724,
 		"inputAbbreviatedPath": "\/images\/ipad_lm.png",
 		"outputAbbreviatedPath": "\/images\/ipad_lm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ipad_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346205,
+		"inputAbbreviatedPath": "\/images\/ipad_pro.png",
+		"outputAbbreviatedPath": "\/images\/ipad_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/last_pict.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57337,
+		"inputAbbreviatedPath": "\/images\/last_pict.png",
+		"outputAbbreviatedPath": "\/images\/last_pict.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -645,6 +810,50 @@
 		"initialSize": 2672,
 		"inputAbbreviatedPath": "\/images\/logo_min.png",
 		"outputAbbreviatedPath": "\/images\/logo_min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo_peugeot_pro_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7829,
+		"inputAbbreviatedPath": "\/images\/logo_peugeot_pro_footer.png",
+		"outputAbbreviatedPath": "\/images\/logo_peugeot_pro_footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6854,
+		"inputAbbreviatedPath": "\/images\/logo_sacem.png",
+		"outputAbbreviatedPath": "\/images\/logo_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo_scooter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13130,
+		"inputAbbreviatedPath": "\/images\/logo_scooter.png",
+		"outputAbbreviatedPath": "\/images\/logo_scooter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/moteur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211388,
+		"inputAbbreviatedPath": "\/images\/moteur.png",
+		"outputAbbreviatedPath": "\/images\/moteur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -792,6 +1001,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/peugeot_pro_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110626,
+		"inputAbbreviatedPath": "\/images\/peugeot_pro_1.png",
+		"outputAbbreviatedPath": "\/images\/peugeot_pro_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/player_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.68106e+06,
+		"inputAbbreviatedPath": "\/images\/player_sacem.png",
+		"outputAbbreviatedPath": "\/images\/player_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/psa-bgBlurSd.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -924,6 +1155,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/push_evasion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77428,
+		"inputAbbreviatedPath": "\/images\/push_evasion.png",
+		"outputAbbreviatedPath": "\/images\/push_evasion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/roll_social_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 455620,
+		"inputAbbreviatedPath": "\/images\/roll_social_sacem.png",
+		"outputAbbreviatedPath": "\/images\/roll_social_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/roll_user_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602845,
+		"inputAbbreviatedPath": "\/images\/roll_user_sacem.png",
+		"outputAbbreviatedPath": "\/images\/roll_user_sacem.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sacem_bloc_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7839,
+		"inputAbbreviatedPath": "\/images\/sacem_bloc_1.png",
+		"outputAbbreviatedPath": "\/images\/sacem_bloc_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sacem_bloc_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6889,
+		"inputAbbreviatedPath": "\/images\/sacem_bloc_2.png",
+		"outputAbbreviatedPath": "\/images\/sacem_bloc_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sacem_bloc_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9365,
+		"inputAbbreviatedPath": "\/images\/sacem_bloc_3.png",
+		"outputAbbreviatedPath": "\/images\/sacem_bloc_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sacem_bloc_4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5878,
+		"inputAbbreviatedPath": "\/images\/sacem_bloc_4.png",
+		"outputAbbreviatedPath": "\/images\/sacem_bloc_4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/scoot_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 749084,
+		"inputAbbreviatedPath": "\/images\/scoot_1.png",
+		"outputAbbreviatedPath": "\/images\/scoot_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/scoot_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 867816,
+		"inputAbbreviatedPath": "\/images\/scoot_2.png",
+		"outputAbbreviatedPath": "\/images\/scoot_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/scoot_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 815759,
+		"inputAbbreviatedPath": "\/images\/scoot_3.png",
+		"outputAbbreviatedPath": "\/images\/scoot_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/scooter_logo_footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7818,
+		"inputAbbreviatedPath": "\/images\/scooter_logo_footer.png",
+		"outputAbbreviatedPath": "\/images\/scooter_logo_footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screen_apps_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 739507,
+		"inputAbbreviatedPath": "\/images\/screen_apps_pro.png",
+		"outputAbbreviatedPath": "\/images\/screen_apps_pro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/step_6.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -942,6 +1305,17 @@
 		"initialSize": 335612,
 		"inputAbbreviatedPath": "\/images\/third_lm.png",
 		"outputAbbreviatedPath": "\/images\/third_lm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Utilisateurs_sacem.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 655039,
+		"inputAbbreviatedPath": "\/images\/Utilisateurs_sacem.png",
+		"outputAbbreviatedPath": "\/images\/Utilisateurs_sacem.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -991,6 +1365,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/peugeot-208.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/peugeot_pro.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/peugeot_pro.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/peugeot_scooter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/peugeot_scooter.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1068,6 +1460,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/scripts\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/scripts\/navigation.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1122,6 +1525,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/jquery.fullpage.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

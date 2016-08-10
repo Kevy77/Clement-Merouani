@@ -6,7 +6,7 @@ $(document).ready(function() {
 				navigation: true,
 				navigationPosition: 'right',
         autoplay:true,
-        navigationTooltips: ['ACCUEUIL', 'PEUGEOT', 'PSA PEUGEOT CITROËN', 'LEROY MERLIN', 'SACEM', 'PEUGEOT','PEUGEOT PRO'],
+        navigationTooltips: ['ACCUEUIL', 'PEUGEOT', 'PSA PEUGEOT CITROËN', 'LEROY MERLIN', 'SACEM', 'PEUGEOT','PEUGEOT PRO','BLUE LINK'],
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
@@ -41,6 +41,11 @@ $(document).ready(function() {
 								$(this).find('.infos__ p').addClass('up_down_css');
 								$(this).find('.btn_project').addClass('up_down_css');
             }
+						if(index == 8){
+								$('#infos_8').fadeIn(600);
+								$(this).find('.infos__ p').addClass('up_down_css');
+								$(this).find('.btn_project').addClass('up_down_css');
+						}
         },
 
 				onLeave: function(index, nextIndex, direction){
@@ -97,6 +102,26 @@ $(document).ready(function() {
 								$(this).find('.infos__ p').removeClass('up_down_css');
  							 	$(this).find('.btn_project').removeClass('up_down_css');
             }
+						if(index == 7 && direction =='down'){
+ 							 $('#infos_7').fadeOut(600);
+ 							 $(this).find('.infos__ p').removeClass('up_down_css');
+ 							 $(this).find('.btn_project').removeClass('up_down_css');
+ 					 }
+ 					 else if(index == 7 && direction == 'up'){
+                 $('#infos_7').fadeOut(600);
+ 								$(this).find('.infos__ p').removeClass('up_down_css');
+  							 	$(this).find('.btn_project').removeClass('up_down_css');
+             }
+						 if(index == 8 && direction =='down'){
+									$('#infos_8').fadeOut(600);
+									$(this).find('.infos__ p').removeClass('up_down_css');
+									$(this).find('.btn_project').removeClass('up_down_css');
+							}
+							else if(index == 8 && direction == 'up'){
+									 $('#infos_8').fadeOut(600);
+									 $(this).find('.infos__ p').removeClass('up_down_css');
+									 $(this).find('.btn_project').removeClass('up_down_css');
+							 }
 
 			 }
 			});

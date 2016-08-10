@@ -131,6 +131,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="section__projects bluelink section" id="section8">
+                    <div class="infos_project" id="infos_8">
+                        <div class="container">
+                            <div class="row">
+                                <div class="infos__">
+                                    <p class="title_infos">peugeot pro</p>
+                                    <p class="sub_infos">Digital</p>
+                                    <a href="bluelink.php" class="btn_project"><img class="arrow_btn" src="images/arrow_btn.png" alt="">voir le cas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </main>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
